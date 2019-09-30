@@ -1,23 +1,20 @@
 .header {
-	height: 25px;
-	color: black;
+	color: white;
 	padding: 10px 0px 10px;
 	width: 100%;
 	float: left;
 	height: 100%;
 }
 .left-column {
-	background-color: rgb(25,100,255);
-	width: 60%;
+	width: 20%;
 	color: white;
 	float: left;
 	height: 100%;
 }
 .right-column {
-	background-color: grey;
 	color: white;
 	float: right;
-	width: 40%;
+	width: 20%;
 	height: 100%;
 }
 .footer {
