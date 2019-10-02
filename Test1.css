@@ -10,12 +10,11 @@
 	background: url(Head.jpg);
 	background-position: center;
 	background-size: cover;
-    background-image: linear-gradient(to bottom, black 0%, transparent 100%));
 	width: 100%;
 	height: 100vh;
 }
-.left-column {
-	background: url(BIO SUIT.jpg);
+.bio_suit {
+	background: url(BIO_SUIT.jpg);
 	background-position: center;
 	background-size: cover;
 	width: 100%;
@@ -27,6 +26,15 @@
 	float: right;
 	width: 20%;
 	height: 100%;
+}
+.main {
+	background-image: url(background1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(15,15,28,1);
+	height: 100%;
+	width: 100%;
+	margin: 0px;
 }
 .footer {
 	background: url(footermoon.jpg);
@@ -40,174 +48,8 @@
 	text-align: center;
 	margin: 0px;
 }
-.main {
-
-	background-position: center;
-	background-size: cover;
-	background-color: rgba(15,15,28,1);
-	height: 100%;
-	width: 100%;
-	min-width: 960px;
-	margin: 0px;
-}
-/*#squaresWaveG{
-	position:relative;
-	width:420px;
-	height:51px;
-	margin:auto;
-}
-
-.squaresWaveG{
-	position:absolute;
-	top:0;
-	background-color:rgb(26,147,212);
-	width:51px;
-	height:51px;
-	animation-name:bounce_squaresWaveG;
-		-o-animation-name:bounce_squaresWaveG;
-		-ms-animation-name:bounce_squaresWaveG;
-		-webkit-animation-name:bounce_squaresWaveG;
-		-moz-animation-name:bounce_squaresWaveG;
-	animation-duration:0.645s;
-		-o-animation-duration:0.645s;
-		-ms-animation-duration:0.645s;
-		-webkit-animation-duration:0.645s;
-		-moz-animation-duration:0.645s;
-	animation-iteration-count:infinite;
-		-o-animation-iteration-count:infinite;
-		-ms-animation-iteration-count:infinite;
-		-webkit-animation-iteration-count:infinite;
-		-moz-animation-iteration-count:infinite;
-	animation-direction:normal;
-		-o-animation-direction:normal;
-		-ms-animation-direction:normal;
-		-webkit-animation-direction:normal;
-		-moz-animation-direction:normal;
-}
-
-#squaresWaveG_1{
-	left:0;
-	animation-delay:0.256s;
-		-o-animation-delay:0.256s;
-		-ms-animation-delay:0.256s;
-		-webkit-animation-delay:0.256s;
-		-moz-animation-delay:0.256s;
-}
-
-#squaresWaveG_2{
-	left:53px;
-	animation-delay:0.3225s;
-		-o-animation-delay:0.3225s;
-		-ms-animation-delay:0.3225s;
-		-webkit-animation-delay:0.3225s;
-		-moz-animation-delay:0.3225s;
-}
-
-#squaresWaveG_3{
-	left:105px;
-	animation-delay:0.389s;
-		-o-animation-delay:0.389s;
-		-ms-animation-delay:0.389s;
-		-webkit-animation-delay:0.389s;
-		-moz-animation-delay:0.389s;
-}
-
-#squaresWaveG_4{
-	left:158px;
-	animation-delay:0.4555s;
-		-o-animation-delay:0.4555s;
-		-ms-animation-delay:0.4555s;
-		-webkit-animation-delay:0.4555s;
-		-moz-animation-delay:0.4555s;
-}
-
-#squaresWaveG_5{
-	left:210px;
-	animation-delay:0.522s;
-		-o-animation-delay:0.522s;
-		-ms-animation-delay:0.522s;
-		-webkit-animation-delay:0.522s;
-		-moz-animation-delay:0.522s;
-}
-
-#squaresWaveG_6{
-	left:263px;
-	animation-delay:0.5885s;
-		-o-animation-delay:0.5885s;
-		-ms-animation-delay:0.5885s;
-		-webkit-animation-delay:0.5885s;
-		-moz-animation-delay:0.5885s;
-}
-
-#squaresWaveG_7{
-	left:315px;
-	animation-delay:0.645s;
-		-o-animation-delay:0.645s;
-		-ms-animation-delay:0.645s;
-		-webkit-animation-delay:0.645s;
-		-moz-animation-delay:0.645s;
-}
-
-#squaresWaveG_8{
-	left:368px;
-	animation-delay:0.7115s;
-		-o-animation-delay:0.7115s;
-		-ms-animation-delay:0.7115s;
-		-webkit-animation-delay:0.7115s;
-		-moz-animation-delay:0.7115s;
-}
 
 
-
-@keyframes bounce_squaresWaveG{
-	0%{
-		background-color:rgb(130,29,130);
-	}
-
-	100%{
-		background-color:rgb(219,24,24);
-	}
-}
-
-@-o-keyframes bounce_squaresWaveG{
-	0%{
-		background-color:rgb(130,29,130);
-	}
-
-	100%{
-		background-color:rgb(219,24,24);
-	}
-}
-
-@-ms-keyframes bounce_squaresWaveG{
-	0%{
-		background-color:rgb(130,29,130);
-	}
-
-	100%{
-		background-color:rgb(219,24,24);
-	}
-}
-
-@-webkit-keyframes bounce_squaresWaveG{
-	0%{
-		background-color:rgb(130,29,130);
-	}
-
-	100%{
-		background-color:rgb(219,24,24);
-	}
-}
-
-@-moz-keyframes bounce_squaresWaveG{
-	0%{
-		background-color:rgb(130,29,130);
-	}
-
-	100%{
-		background-color:rgb(219,24,24);
-	}
-}*/
 .progress-container {
 	left: 50%;
 	position: absolute;
