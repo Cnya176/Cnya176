@@ -1,0 +1,44 @@
+.main {
+	background-image: url(background1.jpg);
+	background-size: cover;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	color: white;
+}
+.head {
+	background-color: rgb(12,13,24);
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+.table {
+	background-color: rgb(12,13,24);
+	height: 100%;
+	width: 100%;
+	color: white;
+}
+.featureADV {
+	background-color: rgb(12,13,24);
+	color: white;
+}
+.bio_suit {
+	background-color: rgb(12,13,24);
+
+}
+.discover {
+	background-color: rgb(12,13,24);
+
+}
+.testimonials {
+	background-color: rgb(12,13,24);
+
+}
+.planong {
+	background-color: rgb(12,13,24);
+
+}
+.footer {
+	background-color: rgb(12,13,24);
+
+}
