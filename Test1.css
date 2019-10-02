@@ -5,7 +5,7 @@
 	float: left;
 	height: 10%;
 }
-.fullscreen-bg {
+.fullscreen-bg1 {
 	background: url(Head.jpg);
 	background-position: center;
 	background-size: cover;
@@ -24,6 +24,14 @@
 	float: right;
 	width: 20%;
 	height: 100%;
+}
+.fullscreen-bg {
+	background: url(b2M.gif);
+	background-position: center;
+	background-size: cover;
+	vertical-align: middle;
+	width: 480px;
+	height: 480px;
 }
 .footer {
 	background-color: rgb(15,15,28);
